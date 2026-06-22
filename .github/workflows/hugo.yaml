@@ -53,7 +53,7 @@ jobs:
           hugo build \
             --gc \
             --minify \
-            --baseURL "yawgmothreport.com"
+            --baseURL "https://yawgmothreport.com/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
