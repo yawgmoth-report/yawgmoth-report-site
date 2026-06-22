@@ -16,14 +16,48 @@ Samwise / Birthing Ritual / Chord shells — putting up results, but increasingl
 
 ## Recent successful Yawgmoth lists
 
-Date	Player	Event	Result	Shell
-Jun. 21	Jrcitizen	Modern League	5–0	Classic Cauldron/GSZ, 4 Yawgmoth, 1 Essence Warden
-Jun. 21	Snoff	Modern League	5–0	Classic Cauldron/GSZ, 4 Yawgmoth, 1 Hapatra, 2 Wastewood Verge
-Jun. 20	AwesomPossum	Modern Challenge 32	5th, 7–1	Samwise/Birthing Ritual hybrid, only 1 Yawgmoth
-Jun. 20	MacIsaac	Modern Challenge 64	Top 32, 5–2	Birthing Ritual/Chord Yawgmoth, 4 Yawgmoth
-Jun. 20	TheMeatMan	Modern Challenge 32	Top 32, 4–3	Classic Cauldron/GSZ, 4 Ballista
-Jun. 18	Downfall89	Modern League	5–0	Stock classic Cauldron/GSZ
-Jun. 17	ShikiXYZ	Modern Challenge 32	Top 32, 4–3	Hybrid Cauldron/GSZ with 2 Chord
+## June 21
+
+### Jrcitizen
+- **Event:** Modern League
+- **Result:** 5–0
+- **Shell:** Classic Cauldron/GSZ, 4 Yawgmoth, 1 Essence Warden
+
+### Snoff
+- **Event:** Modern League
+- **Result:** 5–0
+- **Shell:** Classic Cauldron/GSZ, 4 Yawgmoth, 1 Hapatra, 2 Wastewood Verge
+
+## June 20
+
+### AwesomPossum
+- **Event:** Modern Challenge 32
+- **Result:** 5th Place (7–1)
+- **Shell:** Samwise/Birthing Ritual hybrid, only 1 Yawgmoth
+
+### MacIsaac
+- **Event:** Modern Challenge 64
+- **Result:** Top 32 (5–2)
+- **Shell:** Birthing Ritual/Chord Yawgmoth, 4 Yawgmoth
+
+### TheMeatMan
+- **Event:** Modern Challenge 32
+- **Result:** Top 32 (4–3)
+- **Shell:** Classic Cauldron/GSZ, 4 Walking Ballista
+
+## June 18
+
+### Downfall89
+- **Event:** Modern League
+- **Result:** 5–0
+- **Shell:** Stock Classic Cauldron/GSZ
+
+## June 17
+
+### ShikiXYZ
+- **Event:** Modern Challenge 32
+- **Result:** Top 32 (4–3)
+- **Shell:** Hybrid Cauldron/GSZ with 2 Chord
 
 Jrcitizen’s June 21 5–0 is the cleanest classic list: 4 Yawgmoth, 3 Walking Ballista, 4 Agatha’s Soul Cauldron, 4 Malevolent Rumble, 3 Green Sun’s Zenith, 3 Dredger’s Insight, 3 Spymaster’s Vault, with a singleton Essence Warden.
 
