@@ -18,19 +18,19 @@ Samwise / Birthing Ritual / Chord shells — putting up results, but increasingl
 
 ## June 21
 
-### Jrcitizen
+### [Jrcitizen](https://www.mtggoldfish.com/deck/7843004#paper)
 - **Event:** Modern League
 - **Result:** 5–0
 - **Shell:** Classic Cauldron/GSZ, 4 Yawgmoth, 1 Essence Warden
 
-### Snoff
+### [Snoff](https://www.mtggoldfish.com/deck/7843001#paper)
 - **Event:** Modern League
 - **Result:** 5–0
 - **Shell:** Classic Cauldron/GSZ, 4 Yawgmoth, 1 Hapatra, 2 Wastewood Verge
 
 ## June 20
 
-### AwesomPossum
+### [AwesomPossum](https://www.mtggoldfish.com/deck/7841967#paper)
 - **Event:** Modern Challenge 32
 - **Result:** 5th Place (7–1)
 - **Shell:** Samwise/Birthing Ritual hybrid, only 1 Yawgmoth
