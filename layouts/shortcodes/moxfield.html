@@ -1,0 +1,13 @@
+{{ $id := .Get "id" }}
+{{ $height := .Get "height" | default "780" }}
+
+<div class="yr-moxfield-wrap">
+  <iframe
+    class="yr-moxfield-embed"
+    src="https://www.moxfield.com/embed/{{ $id }}"
+    width="100%"
+    height="{{ $height }}"
+    frameborder="0"
+    loading="lazy">
+  </iframe>
+</div>

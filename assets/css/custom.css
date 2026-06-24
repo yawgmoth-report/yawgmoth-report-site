@@ -164,3 +164,16 @@
   opacity: 0.72;
   margin-top: 0.25rem;
 }
+
+.yr-moxfield-wrap {
+  margin: 1.5rem 0 2rem 0;
+  border: 1px solid rgba(120, 180, 120, 0.28);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.yr-moxfield-embed {
+  display: block;
+  border: 0;
+}
