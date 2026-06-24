@@ -1,5 +1,5 @@
 +++
-title = "Yawgmoth Report: First Diagnosis"
+title = "First Diagnosis - June 21, 2026"
 date = 2026-06-21
 draft = false
 tags = ["weekly report", "modern", "yawgmoth", "cauldron", "green sun's zenith", "birthing ritual", "chord", "sideboard"]

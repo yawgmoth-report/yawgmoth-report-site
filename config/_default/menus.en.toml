@@ -21,24 +21,29 @@
   weight = 20
 
 [[main]]
+  name = "Current 75"
+  pageRef = "current-75"
+  weight = 30
+
+[[main]]
   name = "Sideboarding"
   pageRef = "sideboarding"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Matchups"
   pageRef = "matchups"
-  weight = 40
+  weight = 50
 
 [[main]]
   name = "Resources"
   pageRef = "resources"
-  weight = 50
+  weight = 60
 
 [[main]]
   name = "About"
   pageRef = "about"
-  weight = 60
+  weight = 70
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
