@@ -1,0 +1,23 @@
+{{ $url := .Get "url" }}
+{{ $source := .Get "source" | default "View source decklist" }}
+
+<div class="yr-deck-card">
+  <div class="yr-deck-card-header">
+    <strong>{{ .Get "title" }}</strong>
+    <span>{{ .Get "variant" }}</span>
+  </div>
+
+  <p class="yr-deck-meta">
+    {{ .Get "event" }} · {{ .Get "date" }} · {{ .Get "result" }}
+  </p>
+
+  <p>{{ .Get "notes" }}</p>
+
+  {{ if $url }}
+    <a href="{{ $url }}" target="_blank" rel="noopener noreferrer">
+      {{ $source }}
+    </a>
+  {{ else }}
+    <span class="yr-deck-source-missing">Source link pending</span>
+  {{ end }}
+</div>

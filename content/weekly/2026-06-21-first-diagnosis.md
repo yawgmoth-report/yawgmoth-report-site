@@ -2,7 +2,7 @@
 title = "Yawgmoth Report: First Diagnosis"
 date = 2026-06-21
 draft = false
-tags = ["weekly report", "modern", "yawgmoth"]
+tags = ["weekly report", "modern", "yawgmoth", "cauldron", "green sun's zenith", "birthing ritual", "chord", "sideboard"]
 categories = ["Weekly Reports"]
 +++
 
@@ -10,54 +10,94 @@ Yawgmoth had a better week than its overall metagame share suggests. MTGDecks’
 
 The deck is now split into two practical families:
 
-Classic Golgari Cauldron / Green Sun’s Zenith Yawgmoth — still the cleanest version to play if you want true Yawgmoth.
-Samwise / Birthing Ritual / Chord shells — putting up results, but increasingly close to a separate adjacent creature-combo deck rather than classic Yawgmoth.
-
+* **Classic Golgari Cauldron / Green Sun’s Zenith Yawgmoth** — still the cleanest version to play if you want true Yawgmoth.
+* **Samwise / Birthing Ritual / Chord shells** — putting up results, but increasingly close to a separate adjacent creature-combo deck rather than classic Yawgmoth.
 
 ## Recent successful Yawgmoth lists
 
-## June 21
+### June 21
 
-### [Jrcitizen](https://www.mtggoldfish.com/deck/7843004#paper)
-- **Event:** Modern League
-- **Result:** 5–0
-- **Shell:** Classic Cauldron/GSZ, 4 Yawgmoth, 1 Essence Warden
+{{< deck-card
+title="Jrcitizen"
+variant="Classic Cauldron/GSZ"
+event="Modern League"
+date="June 21"
+result="5–0"
+url="https://www.mtggoldfish.com/deck/7843004#paper"
+source="MTGGoldfish"
+notes="A clean classic shell with 4 Yawgmoth, 4 Agatha’s Soul Cauldron, 3 Green Sun’s Zenith, 3 Walking Ballista, and a singleton Essence Warden."
 
-### [Snoff](https://www.mtggoldfish.com/deck/7843001#paper)
-- **Event:** Modern League
-- **Result:** 5–0
-- **Shell:** Classic Cauldron/GSZ, 4 Yawgmoth, 1 Hapatra, 2 Wastewood Verge
+> }}
 
-## June 20
+{{< deck-card
+title="Snoff"
+variant="Classic Cauldron/GSZ"
+event="Modern League"
+date="June 21"
+result="5–0"
+url="https://www.mtggoldfish.com/deck/7843001#paper"
+source="MTGGoldfish"
+notes="A slightly grindier classic build with 4 Yawgmoth, 3 Agatha’s Soul Cauldron, 1 Hapatra, 2 Wastewood Verge, and a heavier land-disruption sideboard."
 
-### [AwesomPossum](https://www.mtggoldfish.com/deck/7841967#paper)
-- **Event:** Modern Challenge 32
-- **Result:** 5th Place (7–1)
-- **Shell:** Samwise/Birthing Ritual hybrid, only 1 Yawgmoth
+> }}
 
-### MacIsaac
-- **Event:** Modern Challenge 64
-- **Result:** Top 32 (5–2)
-- **Shell:** Birthing Ritual/Chord Yawgmoth, 4 Yawgmoth
+### June 20
 
-### TheMeatMan
-- **Event:** Modern Challenge 32
-- **Result:** Top 32 (4–3)
-- **Shell:** Classic Cauldron/GSZ, 4 Walking Ballista
+{{< deck-card
+title="AwesomPossum"
+variant="Samwise/Birthing Ritual hybrid"
+event="Modern Challenge 32"
+date="June 20"
+result="5th place, 7–1"
+url="https://www.mtggoldfish.com/deck/7841967#paper"
+source="MTGGoldfish"
+notes="A high-performing adjacent creature-combo shell with 4 Samwise Gamgee, 4 Birthing Ritual, 4 Chord of Calling, and only 1 Yawgmoth."
 
-## June 18
+> }}
 
-### Downfall89
-- **Event:** Modern League
-- **Result:** 5–0
-- **Shell:** Stock Classic Cauldron/GSZ
+{{< deck-card
+title="MacIsaac"
+variant="Birthing Ritual/Chord Yawgmoth"
+event="Modern Challenge 64"
+date="June 20"
+result="Top 32, 5–2"
+notes="A Ritual/Chord shell that keeps 4 Yawgmoth, making it closer to hybrid Yawgmoth than the Samwise-heavy lists."
 
-## June 17
+> }}
 
-### ShikiXYZ
-- **Event:** Modern Challenge 32
-- **Result:** Top 32 (4–3)
-- **Shell:** Hybrid Cauldron/GSZ with 2 Chord
+{{< deck-card
+title="TheMeatMan"
+variant="Classic Cauldron/GSZ"
+event="Modern Challenge 32"
+date="June 20"
+result="Top 32, 4–3"
+notes="A classic-style list notable for 4 Walking Ballista."
+
+> }}
+
+### June 18
+
+{{< deck-card
+title="Downfall89"
+variant="Stock Classic Cauldron/GSZ"
+event="Modern League"
+date="June 18"
+result="5–0"
+notes="A stock classic shell, useful mainly as evidence that the baseline Cauldron/GSZ build remains viable."
+
+> }}
+
+### June 17
+
+{{< deck-card
+title="ShikiXYZ"
+variant="Hybrid Cauldron/GSZ with Chord"
+event="Modern Challenge 32"
+date="June 17"
+result="Top 32, 4–3"
+notes="A hybrid list using 2 Chord of Calling inside a Cauldron/GSZ structure."
+
+> }}
 
 Jrcitizen’s June 21 5–0 is the cleanest classic list: 4 Yawgmoth, 3 Walking Ballista, 4 Agatha’s Soul Cauldron, 4 Malevolent Rumble, 3 Green Sun’s Zenith, 3 Dredger’s Insight, 3 Spymaster’s Vault, with a singleton Essence Warden.
 
