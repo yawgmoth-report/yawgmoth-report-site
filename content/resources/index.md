@@ -1,5 +1,5 @@
 +++
-title = "Additional Resource"
+title = "Resources"
 description = "Additional resources for Modern Yawgmoth."
 +++
 

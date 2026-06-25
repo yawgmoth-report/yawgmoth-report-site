@@ -1,5 +1,5 @@
 +++
-title = "About us"
+title = "About"
 description = "More information about this site and those behind it."
 +++
 
