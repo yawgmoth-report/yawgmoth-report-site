@@ -7,8 +7,6 @@ tags = ["current 75", "decklist", "yawgmoth", "cauldron", "green sun's zenith", 
 categories = ["Decklists"]
 +++
 
-## Current Recommended 75
-
 **Last updated:** June 23, 2026
 **Recommended shell:** Classic Golgari Cauldron / Green Sun's Zenith Yawgmoth
 **Status:** The list I would run at an event this week.
