@@ -5,6 +5,9 @@ description = "Sidboarding in Yawgmoth."
 
 A list of sideboard guides for each matchup.  Focus on principles to adapt your sideboarding strategy, as your list may be different from the ones included here.
 
+## Important
+
+At the bottom of the page there are sideboard guides from other pilots (only guides that are publicly available elsewhere).
 
 <style>
 .sideboard-grid {
@@ -61,8 +64,7 @@ A list of sideboard guides for each matchup.  Focus on principles to adapt your 
 ## Global notes
 
 <div class="sb-rules">
-<p><strong>Do not bring Force of Vigor unless their main plan or expected post-board plan gives you real targets.</p>
-<p><strong>Culling Ritual comes in against Boros Energy and Prowess.</strong> It also replaces the Damping Sphere slot against Ruby Storm.</p>
+<p>Do not bring Force of Vigor unless their main plan or expected post-board plan gives you real targets.</p>
 <p><strong>Thoughtseize comes in against heavy-counterspell decks.</strong> That includes Dimir Frog/Flash and UW Control, in addition to the combo and big-mana matchups listed below.</p>
 <p><strong>Vexing Bauble stays in against Simic Ritual.</strong> It is for Shardless Agent cascade and free interaction such as Flare of Denial, Force of Negation, Subtlety, and Endurance. If their list is pure Birthing Ritual without cascade/free spells, trim Baubles first.</p>
 <p><strong>Mill intentionally boards above 60.</strong> The plan brings in 8 and cuts 7, so the post-board deck is 61 cards.</p>
