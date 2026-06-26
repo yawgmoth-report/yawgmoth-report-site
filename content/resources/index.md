@@ -7,6 +7,8 @@ A selection of external resources for playing and building Yawgmoth deck.  These
 
 ## Pilots
 
+Below are links from strong Yawgmoth pilots.  Their lists, videos, and articles are some of the best resources to upgrade your gameplay of this deck.
+
 {{< pilot-card name="TheMeatMan" role="Yawgmoth pilot / content creator" patreon="https://www.patreon.com/MeatMTG" mtggoldfish="https://www.mtggoldfish.com/player/TheMeatMan" youtube="https://www.youtube.com/@meatmtg" linktree="https://linktr.ee/meatmtg" >}}
 Regular Yawgmoth pilot with useful recent lists and tournament finishes.
 {{< /pilot-card >}}
@@ -15,14 +17,14 @@ Regular Yawgmoth pilot with useful recent lists and tournament finishes.
 Strong Yawgmoth pilot.  Read his articles in Mystical Teachings.
 {{< /pilot-card >}}
 
-{{< pilot-card name="Control4Daze" role="Yawgmoth pilot / content creator" patreon="https://www.patreon.com/cw/control4daze" youtube="https://www.youtube.com/@control4daze" twitch="https://www.twitch.tv/control4daze" >}}
-Yawgmoth-focused content, deck updates, gameplay, and sideboard discussion.
+{{< pilot-card name="Control4Daze" role="Yawgmoth pilot / content creator" patreon="https://www.patreon.com/cw/control4daze" youtube="https://www.youtube.com/@control4daze" twitch="https://www.twitch.tv/control4daze" mtggoldfish="https://www.mtggoldfish.com/player/Control4Daze" >}}
+Yawgmoth-focused and premodern content, deck updates, gameplay, and sideboard discussion.
 {{< /pilot-card >}}
 
 {{< pilot-card name="Xerk" role="Yawgmoth pilot" patreon="https://www.patreon.com/cw/xerk4" mtggoldfish="https://www.mtggoldfish.com/player/Xerk" >}}
 Very strong Yawgmoth player.
 {{< /pilot-card >}}
 
-{{< pilot-card name="Demonic tutors" role="Yawgmoth pilot" youtube="https://www.youtube.com/@DemonicTutors" mtggoldfish="https://www.mtggoldfish.com/player/DemonicTutors" >}}
+{{< pilot-card name="Demonic tutors" role="Yawgmoth pilot / content creator" youtube="https://www.youtube.com/@DemonicTutors" mtggoldfish="https://www.mtggoldfish.com/player/DemonicTutors" >}}
 Demonictutors plays Yawgmoth sporadically.  His lists are always worth analyzing.
 {{< /pilot-card >}}
