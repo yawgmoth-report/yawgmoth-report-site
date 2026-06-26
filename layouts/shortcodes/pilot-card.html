@@ -1,0 +1,94 @@
+{{ $name := .Get "name" }}
+{{ $role := .Get "role" }}
+{{ $open := .Get "open" }}
+
+<details class="yr-pilot-card" {{ if eq $open "true" }}open{{ end }}>
+  <summary class="yr-pilot-summary">
+    <span class="yr-pilot-name">{{ $name }}</span>
+    {{ with $role }}
+      <span class="yr-pilot-role">{{ . }}</span>
+    {{ end }}
+  </summary>
+
+  <div class="yr-pilot-body">
+    {{ with .Inner }}
+      <div class="yr-pilot-notes">
+        {{ . | markdownify }}
+      </div>
+    {{ end }}
+
+    <div class="yr-pilot-links">
+      {{ with .Get "mtggoldfish" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="yr-pilot-link">
+          <span class="yr-link-icon">🐟</span> MTGGoldfish
+        </a>
+      {{ end }}
+
+      {{ with .Get "mtgdecks" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="yr-pilot-link">
+          <span class="yr-link-icon">MTG</span> MTGDecks
+        </a>
+      {{ end }}
+
+      {{ with .Get "moxfield" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="yr-pilot-link">
+          <span class="yr-link-icon">M</span> Moxfield
+        </a>
+      {{ end }}
+
+      {{ with .Get "patreon" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="yr-pilot-link">
+          <span class="yr-link-icon">P</span> Patreon
+        </a>
+      {{ end }}
+
+      {{ with .Get "youtube" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="yr-pilot-link">
+          <span class="yr-link-icon">▶</span> YouTube
+        </a>
+      {{ end }}
+
+      {{ with .Get "twitch" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="yr-pilot-link">
+          <span class="yr-link-icon">T</span> Twitch
+        </a>
+      {{ end }}
+
+      {{ with .Get "twitter" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="yr-pilot-link">
+          <span class="yr-link-icon">X</span> X/Twitter
+        </a>
+      {{ end }}
+
+      {{ with .Get "bluesky" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="yr-pilot-link">
+          <span class="yr-link-icon">B</span> Bluesky
+        </a>
+      {{ end }}
+
+      {{ with .Get "discord" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="yr-pilot-link">
+          <span class="yr-link-icon">D</span> Discord
+        </a>
+      {{ end }}
+
+      {{ with .Get "website" }}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="yr-pilot-link">
+          <span class="yr-link-icon">↗</span> Website
+        </a>
+      {{ end }}
+
+      {{ with .Get "linktree" }}
+  <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="yr-pilot-link">
+    <span class="yr-link-icon">L</span> Linktree
+  </a>
+{{ end }}
+
+{{ with .Get "other" }}
+  <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="yr-pilot-link">
+    <span class="yr-link-icon">↗</span> {{ $.Get "otherLabel" | default "Other" }}
+  </a>
+{{ end }}
+    </div>
+  </div>
+</details>

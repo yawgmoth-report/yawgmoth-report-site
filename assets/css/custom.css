@@ -177,3 +177,91 @@
   display: block;
   border: 0;
 }
+
+/* Pilot resource cards */
+
+.yr-pilot-card {
+  border: 1px solid rgba(120, 180, 120, 0.28);
+  border-radius: 1rem;
+  margin: 1rem 0;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.025);
+  overflow: hidden;
+}
+
+.yr-pilot-summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1rem 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.yr-pilot-summary::-webkit-details-marker {
+  display: none;
+}
+
+.yr-pilot-summary::after {
+  content: "+";
+  opacity: 0.7;
+  font-weight: 700;
+}
+
+.yr-pilot-card[open] .yr-pilot-summary::after {
+  content: "−";
+}
+
+.yr-pilot-name {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.yr-pilot-role {
+  font-size: 0.85rem;
+  opacity: 0.68;
+}
+
+.yr-pilot-body {
+  border-top: 1px solid rgba(120, 180, 120, 0.18);
+  padding: 1rem 1.1rem 1.1rem 1.1rem;
+}
+
+.yr-pilot-notes {
+  margin-bottom: 0.9rem;
+  opacity: 0.9;
+}
+
+.yr-pilot-notes p {
+  margin-top: 0;
+}
+
+.yr-pilot-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.yr-pilot-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid rgba(120, 180, 120, 0.28);
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.85rem;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.yr-link-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.15rem;
+  height: 1.15rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  opacity: 0.9;
+}
