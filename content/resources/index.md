@@ -5,6 +5,12 @@ description = "Additional resources for Modern Yawgmoth."
 
 A selection of external resources for playing and building Yawgmoth deck.  These include links to patreons of successful pilots, youtube channels, etc...
 
+## Discord server
+
+The following discord server has been for some years one of the better places for Yawgmoth player
+
+[Boss Nation Discord](https://discord.gg/udYDg68Mvk)
+
 ## Pilots
 
 Below are links from strong Yawgmoth pilots.  Their lists, videos, and articles are some of the best resources to upgrade your gameplay of this deck.
