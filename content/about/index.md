@@ -7,6 +7,9 @@ Yawgmoth Report is a weekly Modern Yawgmoth publication tracking successful deck
 
 The goal is not just to archive lists, but to explain what they mean for players deciding what to register.
 
+## Support this site
+
+Do you want to support this site?  You can [buy a card from us](https://www.tcgplayer.com/sellers/Tempest-Trading-Post/c07a507f).
 
 ## Unofficial Fan Content Notice
 
