@@ -1,6 +1,6 @@
 +++
 title = "Diagnosis - June 28, 2026"
-date = 2026-06-21
+date = 2026-06-28
 draft = false
 tags = ["weekly report", "modern", "yawgmoth", "cauldron", "green sun's zenith", "birthing ritual", "chord", "sideboard"]
 categories = ["Weekly Reports"]
