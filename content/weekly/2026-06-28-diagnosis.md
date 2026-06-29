@@ -36,7 +36,7 @@ The successful Yawgmoth lists this week mostly confirm the existing split: class
 
 ## Notes on the lists
 
-**Xerk**’s June 27 Challenge list is the most relevant current benchmark: 4 Yawgmoth, 3 Walking Ballista, 4 Agatha’s Soul Cauldron, 3 Green Sun’s Zenith, 4 Malevolent Rumble, 1 Dredger’s Insight, 1 Chord of Calling, 1 Haywire Mite, 2 Grist, with sideboard Ashiok, Culling Ritual, Endurance, Fatal Push, Force of Vigor, Fulminator Mage, Soulless Jailer, Thoughtseize, Vexing Bauble, and Witherbloom Charm.
+**Xerk**’s June 27 Challenge list is the most relevant current benchmark: 4 [[Yawgmoth]], 3 Walking Ballista, 4 Agatha’s Soul Cauldron, 3 Green Sun’s Zenith, 4 Malevolent Rumble, 1 Dredger’s Insight, 1 Chord of Calling, 1 Haywire Mite, 2 Grist, with sideboard Ashiok, Culling Ritual, Endurance, Fatal Push, Force of Vigor, Fulminator Mage, Soulless Jailer, Thoughtseize, Vexing Bauble, and Witherbloom Charm.
 
 **ShikiXYZ** is still on the other major classic branch: 3 Yawgmoth, 3 Ballista, 4 Cauldron, 3 Green Sun’s Zenith, 3 Malevolent Rumble, 1 Dredger’s Insight, 2 Chord of Calling, plus Virulent Emissary, Orcish Bowmasters, Ouroboroid, Sephiroth, Formidable Speaker, and a very stock interactive sideboard.
 

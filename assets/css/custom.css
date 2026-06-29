@@ -265,3 +265,56 @@
   font-weight: 700;
   opacity: 0.9;
 }
+
+.mtg-card-link {
+  text-decoration: underline dotted;
+  text-underline-offset: 0.16em;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+pre code .mtg-card-link {
+  font-weight: inherit;
+}
+
+.mtg-card-link:hover,
+.mtg-card-link:focus {
+  text-decoration: underline;
+}
+
+.mtg-card-tooltip {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  width: 244px;
+  min-height: 320px;
+}
+
+.mtg-card-tooltip img {
+  display: block;
+  width: 244px;
+  max-width: 244px;
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+.mtg-card-tooltip--loading {
+  min-height: 0;
+}
+
+.mtg-card-tooltip--loading::before {
+  content: "Loading card…";
+  display: block;
+  padding: 0.45rem 0.65rem;
+  border-radius: 0.5rem;
+  background: rgba(20, 20, 20, 0.88);
+  color: white;
+  font-size: 0.85rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+@media (hover: none), (max-width: 768px) {
+  .mtg-card-tooltip {
+    display: none !important;
+  }
+}
