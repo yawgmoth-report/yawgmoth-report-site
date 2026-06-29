@@ -1,13 +1,14 @@
 (() => {
   const API_URL = "https://api.scryfall.com/cards/named";
   const CACHE_KEY = "yawgmothreport:scryfall-card-cache:v1";
-  const FETCH_SPACING_MS = 550; // keeps /cards/named under 2 requests/sec
+  const FETCH_SPACING_MS = 150; // keeps /cards/named under 2 requests/sec
 
   let cache = new Map();
   let pending = new Map();
   let fetchChain = Promise.resolve();
   let lastFetchAt = 0;
   let activeLink = null;
+  let hideTimer = null;
 
   try {
     cache = new Map(JSON.parse(sessionStorage.getItem(CACHE_KEY) || "[]"));
@@ -56,24 +57,27 @@
   }
 
   function queuedJsonFetch(url) {
-    fetchChain = fetchChain.then(async () => {
-      const elapsed = Date.now() - lastFetchAt;
-      if (elapsed < FETCH_SPACING_MS) {
-        await new Promise(resolve => setTimeout(resolve, FETCH_SPACING_MS - elapsed));
-      }
+  const run = async () => {
+    const elapsed = Date.now() - lastFetchAt;
+    if (elapsed < FETCH_SPACING_MS) {
+      await new Promise(resolve => setTimeout(resolve, FETCH_SPACING_MS - elapsed));
+    }
 
-      lastFetchAt = Date.now();
+    lastFetchAt = Date.now();
 
-      const response = await fetch(url, {
-        headers: { Accept: "application/json;q=0.9,*/*;q=0.8" }
-      });
-
-      if (!response.ok) throw new Error(`Scryfall returned ${response.status}`);
-      return response.json();
+    const response = await fetch(url, {
+      headers: { Accept: "application/json;q=0.9,*/*;q=0.8" }
     });
 
-    return fetchChain;
-  }
+    if (!response.ok) throw new Error(`Scryfall returned ${response.status}`);
+    return response.json();
+  };
+
+  // Important: one failed request should not break the whole future queue.
+  const request = fetchChain.catch(() => {}).then(run);
+  fetchChain = request.catch(() => {});
+  return request;
+}
 
   async function getCardData(name) {
     const clean = normalizeName(name);
@@ -207,41 +211,56 @@
   }
 
   async function showTooltip(link) {
-    activeLink = link;
+  if (hideTimer) {
+    clearTimeout(hideTimer);
+    hideTimer = null;
+  }
 
-    const name = link.dataset.card;
-    if (!name) return;
+  activeLink = link;
 
-    tooltip.classList.add("mtg-card-tooltip--loading");
-    tooltip.hidden = false;
-    img.removeAttribute("src");
-    positionTooltip(link);
+  const name = link.dataset.card;
+  if (!name) return;
 
-    try {
-      const data = await getCardData(name);
-      if (activeLink !== link) return;
+  tooltip.classList.add("mtg-card-tooltip--loading");
+  tooltip.hidden = false;
+  img.removeAttribute("src");
+  positionTooltip(link);
 
-      if (data.page) link.href = data.page;
+  try {
+    const data = await getCardData(name);
+    if (activeLink !== link) return;
 
-      if (!data.image) {
-        hideTooltip();
-        return;
-      }
+    if (data.page) link.href = data.page;
 
-      img.src = data.image;
-      img.alt = data.name;
-      tooltip.classList.remove("mtg-card-tooltip--loading");
-      positionTooltip(link);
-    } catch (_) {
+    if (!data.image) {
       if (activeLink === link) hideTooltip();
+      return;
     }
-  }
 
-  function hideTooltip() {
-    activeLink = null;
-    tooltip.hidden = true;
+    img.src = data.image;
+    img.alt = data.name;
     tooltip.classList.remove("mtg-card-tooltip--loading");
+    positionTooltip(link);
+  } catch (_) {
+    if (activeLink === link) hideTooltip();
   }
+}
+
+function hideTooltip(link = null) {
+  if (link && activeLink !== link) return;
+
+  activeLink = null;
+  tooltip.hidden = true;
+  tooltip.classList.remove("mtg-card-tooltip--loading");
+}
+
+function scheduleHideTooltip(link) {
+  if (hideTimer) clearTimeout(hideTimer);
+
+  hideTimer = setTimeout(() => {
+    hideTooltip(link);
+  }, 75);
+}
 
   function boot() {
     const root =
@@ -253,21 +272,37 @@
     enhanceDecklists(root);
 
     document.addEventListener("pointerover", event => {
-      if (event.pointerType === "touch") return;
+  if (event.pointerType === "touch") return;
 
-      const link = event.target.closest("a.mtg-card-link");
-      if (link) showTooltip(link);
-    });
+  const link = event.target.closest("a.mtg-card-link");
+  if (link) showTooltip(link);
+});
 
-    document.addEventListener("pointerout", event => {
-      const link = event.target.closest("a.mtg-card-link");
-      if (link && !link.contains(event.relatedTarget)) hideTooltip();
-    });
+document.addEventListener("pointerout", event => {
+  const link = event.target.closest("a.mtg-card-link");
+  if (!link) return;
 
-    document.addEventListener("focusin", event => {
-      const link = event.target.closest("a.mtg-card-link");
-      if (link) showTooltip(link);
-    });
+  const nextTarget = event.relatedTarget;
+  const nextLink =
+    nextTarget instanceof Element
+      ? nextTarget.closest("a.mtg-card-link")
+      : null;
+
+  // Moving directly from one card link to another should not hide the new card.
+  if (nextLink && nextLink !== link) return;
+
+  scheduleHideTooltip(link);
+});
+
+document.addEventListener("focusin", event => {
+  const link = event.target.closest("a.mtg-card-link");
+  if (link) showTooltip(link);
+});
+
+document.addEventListener("focusout", event => {
+  const link = event.target.closest("a.mtg-card-link");
+  if (link) scheduleHideTooltip(link);
+});
 
     document.addEventListener("focusout", event => {
       const link = event.target.closest("a.mtg-card-link");
