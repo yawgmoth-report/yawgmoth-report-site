@@ -87,13 +87,13 @@ Lands — 22
 
 ## Why this build
 
-The list keeps the best-performing recent core: 4 Badgermole Cub, 4 Delighted Halfling, 4 Agatha's Soul Cauldron, 3 Green Sun's Zenith, and the compact Yawgmoth / Ballista / Cauldron kill structure.
+The list keeps the best-performing recent core: 4 [[Badgermole Cub]], 4 [[Delighted Halfling]], 4 [[Agatha's Soul Cauldron]], 3 [[Green Sun's Zenith]], and the compact Yawgmoth / Ballista / Cauldron kill structure.
 
 Recent successful lists have been split between more classic Cauldron/GSZ builds and adjacent Samwise/Birthing Ritual/Chord shells. I prefer staying closer to classic Yawgmoth. The deck is still at its best when Yawgmoth is a real engine, not merely a backup plan inside a broader creature-combo shell.
 
-The 2 Chord of Calling package is the compromise. Chord improves post-board access to Endurance, Outland Liberator, Soulless Jailer, Sephiroth, Yawgmoth, and other corner-case bullets without fully turning the deck into a Ritual/Chord toolbox deck.
+The 2 Chord of Calling package is the compromise. Chord improves post-board access to [[Endurance]], [[Outland Liberator]], [[Soulless Jailer]], Sephiroth, Yawgmoth, and other corner-case bullets without fully turning the deck into a Ritual/Chord toolbox deck.
 
-The sideboard is aimed at the actual pressure points of the current Modern field: Fatal Push for Energy, Prowess, and creature-combo decks; Force of Vigor and Outland Liberator for artifact engines and hate pieces; Fulminator Mage for Eldrazi, Tron, and Titan-style mana; and Thoughtseize, Vexing Bauble, Endurance, and Soulless Jailer for combo, stack, and graveyard decks.
+The sideboard is aimed at the actual pressure points of the current Modern field: [[Fatal Push]] for Energy, Prowess, and creature-combo decks; [[Force of Vigor]] and [[Outland Liberator]] for artifact engines and hate pieces; [[Fulminator Mage]] for Eldrazi, Tron, and Titan-style mana; and [[Thoughtseize]], [[Vexing Bauble]], [[Endurance]], and [[Soulless Jailer]] for combo, stack, and graveyard decks.
 
 ## Main flex slots
 
@@ -105,16 +105,16 @@ The sideboard is aimed at the actual pressure points of the current Modern field
 
 ## Cards under consideration
 
-* Hapatra, Vizier of Poisons
-* Essence Warden
-* Fourth Yawgmoth, Thran Physician
-* Fourth Walking Ballista
-* Additional Dredger's Insight
-* Third Chord of Calling
-* Additional Endurance
-* Damping Sphere
-* Additional Fulminator Mage
-* Second Soulless Jailer
+* [[Hapatra, Vizier of Poisons]]
+* [[Essence Warden]]
+* Fourth [[Yawgmoth, Thran Physician]]
+* Fourth [[Walking Ballista]]
+* Additional [[Dredger's Insight]]
+* Third [[Chord of Calling]]
+* Additional [[Endurance]]
+* [[Damping Sphere]]
+* Additional [[Fulminator Mage]]
+* Second [[Soulless Jailer]]
 
 ## Change Log
 
