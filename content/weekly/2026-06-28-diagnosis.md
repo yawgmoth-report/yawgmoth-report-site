@@ -36,9 +36,9 @@ The successful Yawgmoth lists this week mostly confirm the existing split: class
 
 ## Notes on the lists
 
-**Xerk**’s June 27 Challenge list is the most relevant current benchmark: 4 [[Yawgmoth, Thrah Physician]], 3 [[Walking Ballista]], 4 [[Agatha’s Soul Cauldron]], 3 [[Green Sun’s Zenith]], 4 [[Malevolent Rumble]], 1 [[Dredger’s Insight]], 1 [[Chord of Calling]], 1 [[Haywire Mite]], 2 [[Grist, the Hunger Tide]], with sideboard [[Ashiok, Dream Render]], [[Culling Ritual]], [[Endurance]], [[Fatal Push]], [[Force of Vigor]], [[Fulminator Mage]], [[Soulless Jailer]], [[Thoughtseize]], [[Vexing Bauble]], and [[Witherbloom Charm]].
+**Xerk**’s June 27 Challenge list is the most relevant current benchmark: 4 [[Yawgmoth, Thran Physician]], 3 [[Walking Ballista]], 4 [[Agatha’s Soul Cauldron]], 3 [[Green Sun’s Zenith]], 4 [[Malevolent Rumble]], 1 [[Dredger’s Insight]], 1 [[Chord of Calling]], 1 [[Haywire Mite]], 2 [[Grist, the Hunger Tide]], with sideboard [[Ashiok, Dream Render]], [[Culling Ritual]], [[Endurance]], [[Fatal Push]], [[Force of Vigor]], [[Fulminator Mage]], [[Soulless Jailer]], [[Thoughtseize]], [[Vexing Bauble]], and [[Witherbloom Charm]].
 
-**ShikiXYZ** is still on the other major classic branch: 3 Yawgmoth, 3 Ballista, 4 Cauldron, 3 Green Sun’s Zenith, 3 Malevolent Rumble, 1 Dredger’s Insight, 2 Chord of Calling, plus [[Virulent Emissary]], [[Orcish Bowmasters]], [[Ouroboroid]], [[Sephiroth]], [[Formidable Speaker]], and a very stock interactive sideboard.
+**ShikiXYZ** is still on the other major classic branch: 3 Yawgmoth, 3 Ballista, 4 Cauldron, 3 Green Sun’s Zenith, 3 Malevolent Rumble, 1 Dredger’s Insight, 2 Chord of Calling, plus [[Virulent Emissary]], [[Orcish Bowmasters]], [[Ouroboroid]], [[Sephiroth, fabled SOLDIER]], [[Formidable Speaker]], and a very stock interactive sideboard.
 
 **NickBolas90**’s June 26 League 5–0 is the new-card watchlist list: it includes 1 [[Mole Man, Moloid Master]], 1 [[Virulent Emissary]], 2 [[Chord of Calling]], and the usual Cauldron/GSZ package. MTGGoldfish also flags Mole Man, Moloid Master as a “New Card Seeing Play” in that June 26 League, specifically in a Yawgmoth 5–0.
 
