@@ -1,17 +1,17 @@
 +++
 title = "Current Recommended 75"
-description = "The list I would run at an event."
-date = 2026-06-23
+description = "The current list I would run at an event, based on Xerk's last two Modern Challenges."
+date = 2026-07-23
 draft = false
-tags = ["current 75", "decklist", "yawgmoth", "cauldron", "green sun's zenith", "chord"]
+tags = ["current 75", "decklist", "yawgmoth", "cauldron", "green sun's zenith", "dredger's insight"]
 categories = ["Decklists"]
 +++
 
-**Last updated:** June 23, 2026
+**Last updated:** July 23, 2026
 **Recommended shell:** Classic Golgari Cauldron / Green Sun's Zenith Yawgmoth
 **Status:** The list I would run at an event this week.
 
-This is the current baseline I would register: a classic Golgari Cauldron/GSZ Yawgmoth shell with a light Chord of Calling package. The goal is to stay centered on real Yawgmoth gameplay while preserving post-board access to high-impact bullets.
+We are now using the configuration Xerk registered in his last two Modern Challenges. He won the July 22 Modern Challenge 96 at 10-0, then finished 5-2 in the July 23 Modern Challenge 64 with the same 75.  He then tweeted that the deck is perfect.  This makes it an easy recommendation. That is enough evidence to make this the current baseline rather than continuing to tune from the previous Chord of Calling configuration. The copyable list below retains our 2/2 split between [[Windswept Heath]] and [[Wooded Foothills]] in place of Xerk's four copies of Windswept Heath.
 
 ## Visual Decklist
 
@@ -23,47 +23,43 @@ This is the current baseline I would register: a classic Golgari Cauldron/GSZ Ya
 <summary>Main deck — 60</summary>
 
 ```text
-Creatures — 24
+Creatures — 25
 4 Badgermole Cub
 4 Delighted Halfling
+4 Yawgmoth, Thran Physician
 4 Young Wolf
-3 Yawgmoth, Thran Physician
 3 Walking Ballista
 1 Endurance
 1 Formidable Speaker
-1 Orcish Bowmasters
+1 Haywire Mite
+1 Ignoble Hierarch
 1 Ouroboroid
-1 Sephiroth, Fabled SOLDIER
 1 Strangleroot Geist
 
 Artifacts — 4
 4 Agatha's Soul Cauldron
 
-Instants — 2
-2 Chord of Calling
-
-Sorceries — 6
+Sorceries — 7
+4 Malevolent Rumble
 3 Green Sun's Zenith
-3 Malevolent Rumble
 
-Enchantments — 1
-1 Dredger's Insight
+Enchantments — 2
+2 Dredger's Insight
 
 Planeswalkers — 1
 1 Grist, the Hunger Tide
 
-Lands — 22
+Lands — 21
 4 Verdant Catacombs
-3 Forest
 3 Overgrown Tomb
 3 Spymaster's Vault
 2 Boseiju, Who Endures
+2 Forest
 2 Windswept Heath
+2 Wooded Foothills
 1 Dryad Arbor
-1 Misty Rainforest
 1 Swamp
 1 Underground Mortuary
-1 Wooded Foothills
 ```
 
 </details>
@@ -72,53 +68,64 @@ Lands — 22
 <summary>Sideboard — 15</summary>
 
 ```text
-3 Fatal Push
+3 Thoughtseize
+2 Fatal Push
 2 Force of Vigor
-2 Fulminator Mage
-2 Thoughtseize
-2 Vexing Bauble
+1 Ashiok, Dream Render
 1 Culling Ritual
-1 Endurance
-1 Outland Liberator
+1 Fulminator Mage
+1 Grist, the Hunger Tide
+1 Murderous Cut
 1 Soulless Jailer
+1 Vexing Bauble
+1 Witherbloom Charm
 ```
 
 </details>
 
 ## Why this build
 
-The list keeps the best-performing recent core: 4 [[Badgermole Cub]], 4 [[Delighted Halfling]], 4 [[Agatha's Soul Cauldron]], 3 [[Green Sun's Zenith]], and the compact Yawgmoth / Ballista / Cauldron kill structure.
+The most important reason to adopt this list is that it has now produced consecutive strong Challenge finishes in Xerk's hands without changing a card. The first run was a 10-0 tournament win, and the second was a 5-2 finish the following day. Rather than treating individual card choices as isolated innovations, this gives us a complete and recently tested configuration.
 
-Recent successful lists have been split between more classic Cauldron/GSZ builds and adjacent Samwise/Birthing Ritual/Chord shells. I prefer staying closer to classic Yawgmoth. The deck is still at its best when Yawgmoth is a real engine, not merely a backup plan inside a broader creature-combo shell.
+The deck moves away from the light [[Chord of Calling]] package and commits more fully to the Cauldron engine. Four [[Yawgmoth, Thran Physician]] and three [[Walking Ballista]] maximize access to the deck's strongest cards, while four [[Malevolent Rumble]] and two [[Dredger's Insight]] provide enough selection and graveyard velocity to find them consistently.
 
-The 2 Chord of Calling package is the compromise. Chord improves post-board access to [[Endurance]], [[Outland Liberator]], [[Soulless Jailer]], Sephiroth, Yawgmoth, and other corner-case bullets without fully turning the deck into a Ritual/Chord toolbox deck.
+The creature package remains compact but functional. [[Green Sun's Zenith]] has access to [[Dryad Arbor]] for acceleration, [[Haywire Mite]] for artifacts and enchantments, [[Endurance]] for graveyards, [[Formidable Speaker]] as a value creature, and [[Ouroboroid]] as a scalable threat. [[Ignoble Hierarch]] increases the number of one-mana accelerants, while [[Strangleroot Geist]] adds another undying creature and preserves the traditional Yawgmoth lines.
 
-The sideboard is aimed at the actual pressure points of the current Modern field: [[Fatal Push]] for Energy, Prowess, and creature-combo decks; [[Force of Vigor]] and [[Outland Liberator]] for artifact engines and hate pieces; [[Fulminator Mage]] for Eldrazi, Tron, and Titan-style mana; and [[Thoughtseize]], [[Vexing Bauble]], [[Endurance]], and [[Soulless Jailer]] for combo, stack, and graveyard decks.
+The 21-land configuration is lean, but the deck compensates with eight one-mana accelerants, four copies of [[Malevolent Rumble]], and the Zenith-to-Arbor line. Three [[Spymaster's Vault]] provide substantial late-game value without requiring additional spell slots.
 
-## Main flex slots
+## Sideboard structure
 
-* **Third Forest.** The extra basic is a hedge against recent land-destruction pressure and helps keep the mana functional through longer games.
-* **Sephiroth, Fabled SOLDIER.** The deck has survived without Blood Artist-style effects for a while, but Sephiroth is appearing in recent Yawgmoth lists and is worth testing as a compact finisher/bullet.
-* **Third Yawgmoth versus fourth Yawgmoth.** I am currently on 3, but this is one of the first numbers to revisit if the deck needs to be more direct.
-* **Second Endurance main or side.** The current split gives access without overloading on reactive cards.
-* **Chord of Calling count.** Two copies give access to bullets without forcing the whole deck to become a Chord deck.
+[[Fatal Push]], [[Murderous Cut]], and [[Witherbloom Charm]] provide efficient interaction against creature decks.
 
-## Cards under consideration
+[[Force of Vigor]], [[Witherbloom Charm]], and the maindeck [[Haywire Mite]] cover artifacts, enchantments, and permanent-based hate.
 
-* [[Hapatra, Vizier of Poisons]]
-* [[Essence Warden]]
-* Fourth [[Yawgmoth, Thran Physician]]
-* Fourth [[Walking Ballista]]
-* Additional [[Dredger's Insight]]
-* Third [[Chord of Calling]]
-* Additional [[Endurance]]
-* [[Damping Sphere]]
-* Additional [[Fulminator Mage]]
-* Second [[Soulless Jailer]]
+[[Thoughtseize]], [[Vexing Bauble]], [[Ashiok, Dream Render]], and [[Soulless Jailer]] attack combo, graveyard, and stack-based strategies from different angles.
+
+The second [[Grist, the Hunger Tide]] and [[Culling Ritual]] improve attrition matchups and punish wide boards.
+
+[[Fulminator Mage]] gives the deck targeted disruption against Tron, Eldrazi, Titan, and other mana-intensive strategies.
+
+
+## What changed from the previous list
+
+Removed the two-copy [[Chord of Calling]] package.
+
+Increased to four [[Yawgmoth, Thran Physician]].
+
+Kept three [[Walking Ballista]] as a central part of the Cauldron kill structure.
+
+Increased to four [[Malevolent Rumble]] and two [[Dredger's Insight]].
+
+Added maindeck [[Haywire Mite]], [[Ignoble Hierarch]], and [[Strangleroot Geist]].
+
+Moved to a 21-land configuration with three [[Spymaster's Vault]].
+
+Rebuilt the sideboard around flexible one-ofs and three [[Thoughtseize]].
 
 ## Change Log
 
-**June 23, 2026:** Initial recommended 75.
+July 23, 2026: Replaced the previous recommended list with Xerk's configuration from consecutive Modern Challenges on July 22 and July 23, including a 10-0 Challenge win. Retained a functionally equivalent 2/2 Windswept Heath/Wooded Foothills fetchland split in the linked list.
 
+June 23, 2026: Initial recommended 75.
 
 
