@@ -318,3 +318,16 @@ pre code .mtg-card-link {
     display: none !important;
   }
 }
+
+.kofi-support {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem 0 0.5rem;
+  opacity: 0.88;
+  transition: opacity 150ms ease;
+}
+
+.kofi-support:hover,
+.kofi-support:focus-within {
+  opacity: 1;
+}
