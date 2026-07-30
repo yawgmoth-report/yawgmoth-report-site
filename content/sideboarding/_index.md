@@ -93,7 +93,7 @@ The sideboard guide below was modified on July 29 to match as closely as possibl
 <h3>Boros Energy / Mardu Energy</h3>
 <p><strong>IN:</strong> 2 Fatal Push; 1 Culling Ritual; 1 Grist, the Hunger Tide; 1 Murderous Cut; 1 Witherbloom Charm.</p>
 <p><strong>OUT:</strong> 4 Malevolent Rumble; 1 Endurance; 1 Ignoble Hierarch.</p>
-<p class="sb-note">This follows the paper guide's removal-heavy plan. With a third Fatal Push, the next cut would be 1 Delighted Halfling on the play or 1 Ouroboroid on the draw; this sideboard uses Ashiok instead, so the default plan stops at six swaps.</p>
+<p class="sb-note">Bring in creature removal.  Grist also kills a flipped Ajani.</p>
 </section>
 
 <section class="matchup-card">
@@ -128,7 +128,7 @@ The sideboard guide below was modified on July 29 to match as closely as possibl
 <h3>Izzet Prowess / Grixis Prowess</h3>
 <p><strong>IN:</strong> 2 Fatal Push; 1 Culling Ritual; 1 Murderous Cut; 1 Vexing Bauble; 1 Witherbloom Charm.</p>
 <p><strong>OUT:</strong> 3 Green Sun's Zenith; 1 Grist, the Hunger Tide; 1 Formidable Speaker; 1 Ouroboroid.</p>
-<p class="sb-note">The paper guide also cuts Dryad Arbor and Ignoble Hierarch, but it has a third Fatal Push and one fewer Zenith. In this configuration, the extra Zenith is the natural additional trim and the mana sources remain in the deck.</p>
+<p class="sb-note">All the interaction, kill their creatures quickly.  Be creful of lava dart.</p>
 </section>
 
 <section class="matchup-card">
@@ -170,7 +170,7 @@ The sideboard guide below was modified on July 29 to match as closely as possibl
 <h3>Mono-Green Eldrazi / Eldrazi Ramp</h3>
 <p><strong>IN:</strong> 3 Thoughtseize; 1 Force of Vigor; 1 Fulminator Mage; 1 Grist, the Hunger Tide.</p>
 <p><strong>OUT:</strong> 2 Dredger's Insight; 1 Green Sun's Zenith; 1 Endurance; 1 Ignoble Hierarch; 1 Ouroboroid.</p>
-<p class="sb-note">This follows the same restrained package used against RG Eldrazi and Eldrazi Tron. Force is for Fight Rigging, Trinisphere, Chalice, and similar noncreature engines rather than for the large threats.</p>
+<p class="sb-note">Force is for Fight Rigging, Trinisphere, Chalice, and similar noncreature engines rather than for the large threats.</p>
 </section>
 
 <section class="matchup-card">
@@ -205,7 +205,7 @@ The sideboard guide below was modified on July 29 to match as closely as possibl
 <h3>Esper Blink / Azorius Blink</h3>
 <p><strong>IN:</strong> 2 Fatal Push; 1 Grist, the Hunger Tide; 1 Murderous Cut; 1 Vexing Bauble; 1 Witherbloom Charm.</p>
 <p><strong>OUT:</strong> 2 Delighted Halfling; 2 Dredger's Insight; 1 Ignoble Hierarch; 1 Haywire Mite.</p>
-<p class="sb-note">The paper guide has a third Push and also removes Young Wolf. With only two Push in this sideboard, keep the Wolf. Bauble catches free Solitude and Ephemerate rebound.</p>
+<p class="sb-note">Bauble catches free Solitude and Ephemerate rebound.</p>
 </section>
 
 <section class="matchup-card">
@@ -219,21 +219,21 @@ The sideboard guide below was modified on July 29 to match as closely as possibl
 <h3>Dimir Midrange / Dimir Flash</h3>
 <p><strong>IN:</strong> 3 Thoughtseize; 1 Fatal Push; 1 Grist, the Hunger Tide; 1 Murderous Cut; 1 Witherbloom Charm.</p>
 <p><strong>OUT:</strong> 2 Delighted Halfling; 1 Dredger's Insight; 1 Endurance; 1 Walking Ballista; 1 Ignoble Hierarch; 1 Ouroboroid.</p>
-<p class="sb-note">This uses the UB Frog structure as the default against counterspell-heavy Dimir decks. On the play, Young Wolf may be the final cut instead of Ouroboroid.</p>
+<p class="sb-note">On the play, Young Wolf may be the final cut instead of Ouroboroid.</p>
 </section>
 
 <section class="matchup-card">
 <h3>Tameshi Belcher</h3>
 <p><strong>IN:</strong> 3 Thoughtseize; 1 Fulminator Mage; 1 Vexing Bauble.</p>
 <p><strong>OUT:</strong> 2 Badgermole Cub; 1 Grist, the Hunger Tide; 2 Malevolent Rumble.</p>
-<p class="sb-note">This is the paper guide's compact Belcher package. Keep Haywire Mite for Lotus Bloom and Goblin Charbelcher; Bauble stops suspended Bloom and other no-mana spells.</p>
+<p class="sb-note">Keep Haywire Mite for Lotus Bloom and Goblin Charbelcher; Bauble stops suspended Bloom and other no-mana spells.</p>
 </section>
 
 <section class="matchup-card">
 <h3>Yawgmoth Mirror</h3>
 <p><strong>IN:</strong> 2 Fatal Push; 1 Grist, the Hunger Tide; 1 Murderous Cut; 1 Witherbloom Charm.</p>
 <p><strong>OUT:</strong> 2 Dredger's Insight; 1 Green Sun's Zenith; 1 Walking Ballista; 1 Ouroboroid.</p>
-<p class="sb-note">The paper guide brings a third Push and removes three Insights. In this list, the third Zenith replaces the missing Insight as the fifth trim. The plan emphasizes direct removal and the second Grist rather than Force of Vigor or Soulless Jailer.</p>
+<p class="sb-note">The plan emphasizes direct removal and the second Grist rather than Force of Vigor or Soulless Jailer.</p>
 </section>
 
 <section class="matchup-card">
@@ -247,7 +247,7 @@ The sideboard guide below was modified on July 29 to match as closely as possibl
 <h3>Tron</h3>
 <p><strong>IN:</strong> 3 Thoughtseize; 1 Force of Vigor; 1 Fulminator Mage; 1 Grist, the Hunger Tide.</p>
 <p><strong>OUT:</strong> 2 Dredger's Insight; 1 Green Sun's Zenith; 1 Endurance; 1 Ignoble Hierarch; 1 Ouroboroid.</p>
-<p class="sb-note">This mirrors the Eldrazi Tron approach without adding the broader Ashiok package. Force is for Map, Chalice, and Karn artifacts; Thoughtseize and Fulminator pressure the mana plan.</p>
+<p class="sb-note">Force is for Map, Chalice, and Karn artifacts; Thoughtseize and Fulminator pressure the mana plan.</p>
 </section>
 
 <section class="matchup-card">
@@ -275,7 +275,7 @@ The sideboard guide below was modified on July 29 to match as closely as possibl
 <h3>Samwise / Devoted Creature Combo</h3>
 <p><strong>IN:</strong> 3 Thoughtseize; 2 Fatal Push; 1 Culling Ritual; 1 Murderous Cut; 1 Witherbloom Charm.</p>
 <p><strong>OUT:</strong> 2 Dredger's Insight; 1 Endurance; 1 Green Sun's Zenith; 1 Malevolent Rumble; 1 Formidable Speaker; 1 Ignoble Hierarch; 1 Ouroboroid.</p>
-<p class="sb-note">The default follows the same pattern used against other compact combo decks: discard plus efficient interaction, without boarding every possible answer. Against artifact-heavy Samwise builds, replace one Thoughtseize with Force of Vigor; against graveyard-dependent loops, Soulless Jailer can replace the remaining Rumble.</p>
+<p class="sb-note">Against artifact-heavy Samwise builds, replace one Thoughtseize with Force of Vigor; against graveyard-dependent loops, Soulless Jailer can replace the remaining Rumble.</p>
 </section>
 
 </div>
