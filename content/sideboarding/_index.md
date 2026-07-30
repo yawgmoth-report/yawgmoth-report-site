@@ -79,6 +79,12 @@ At the bottom of the page there are sideboard guides from other pilots or from e
 
 The sideboard guide below was modified on July 29 to match as closely as possible the guide that **Xerk** posted to the Yawgmoth discord.
 
+## Download
+
+- [Printer-friendly Sideboard Guide (PDF)](/downloads/sideboard-guide.pdf)
+
+- [Sleeve Sideboard Guide (PDF)](/downloads/sleeve-guide.pdf)
+
 ## Matchups
 
 <div class="sideboard-grid">
