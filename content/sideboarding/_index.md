@@ -154,16 +154,16 @@ The sideboard guide below was modified on July 29 to match as closely as possibl
 
 <section class="matchup-card">
 <h3>Amulet Titan</h3>
-<p><strong>IN:</strong> 3 Thoughtseize; 2 Force of Vigor; 1 Fulminator Mage.</p>
-<p><strong>OUT:</strong> 2 Dredger's Insight; 1 Green Sun's Zenith; 1 Grist, the Hunger Tide; 1 Young Wolf; 1 Ouroboroid.</p>
-<p class="sb-note">The paper list removes three Insights; this list has only two, so the additional Zenith is the corresponding trim. Force targets Amulet of Vigor, Spelunking, and Urza's Saga.</p>
+<p><strong>IN:</strong> 3 Thoughtseize; 2 Force of Vigor; 1 Fulminator Mage; 1 Ashiok, Dream Render.</p>
+<p><strong>OUT:</strong> 2 Dredger's Insight; 2 Green Sun's Zenith; 1 Grist, the Hunger Tide; 1 Young Wolf; 1 Ouroboroid.</p>
+<p class="sb-note">Force targets Amulet of Vigor, Spelunking, and Urza's Saga.</p>
 </section>
 
 <section class="matchup-card">
 <h3>Grixis Reanimator</h3>
 <p><strong>IN:</strong> 2 Fatal Push; 1 Ashiok, Dream Render; 1 Grist, the Hunger Tide; 1 Murderous Cut.</p>
 <p><strong>OUT:</strong> 1 Badgermole Cub; 1 Dredger's Insight; 1 Ignoble Hierarch; 1 Haywire Mite; 1 Ouroboroid.</p>
-<p class="sb-note">Ashiok occupies the sideboard slot that is the third Fatal Push in the paper guide. Push answers Psychic Frog and Emperor of Bones; Cut and Grist remain live against the larger reanimation targets.</p>
+<p class="sb-note">Push answers Psychic Frog and Emperor of Bones; Cut and Grist remain live against the larger reanimation targets.</p>
 </section>
 
 <section class="matchup-card">
